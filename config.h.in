@@ -1,0 +1,18 @@
+#ifndef CMAKE_RAND_CONFIG
+#define CMAKE_RAND_CONFIG
+
+#cmakedefine ENABLE_DEBUG
+
+// Platform
+#cmakedefine TARGET_PLATFORM_IOS
+
+// Lib version
+#cmakedefine AISINO_RAND_VER_MBEDTLS
+
+// Config
+#cmakedefine AISINO_RAND_ENABLE_SEED_IOS_SENSOR
+
+// Hash Algorithm
+#cmakedefine AISINO_RAND_HASH_ALG_SM3
+
+#endif
